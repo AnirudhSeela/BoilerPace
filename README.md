@@ -12,4 +12,4 @@ Contributors:
 
 Instructions:
 
-- Run Test3.py and boiler pace.kv
+- Run Test3.py and boilerpace.kv
