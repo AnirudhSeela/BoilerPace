@@ -1,0 +1,525 @@
+<screen_one>:
+    rows: 5
+    name: "page1"
+
+    Label:
+        text: "BoilerPace"
+        size_hint_y: None
+        height: 150
+
+        text_size: self.size
+        font_size: 50
+        halign: 'center'
+        valign: 'center'
+
+    AsyncImage:
+        source: 'http://catalog.purdue.edu/mime/media/10/4029/GiantLeaps%20Banner%20.jpg'
+        size: self.texture_size
+        allow_stretch : True
+        keep_ratio : False
+
+        size_hint_x : 1
+        size_hint_y : 1
+        pos : 200, 100
+        opacity : 1
+
+    Label:
+        text: "Enter Your Schedule!!!"
+        size_hint_y: None
+        height: 100
+        pos_hint: {'x':1, 'y':1}
+        text_size: self.size
+        font_size: 30
+        halign: 'center'
+        valign: 'center'
+
+        canvas:
+
+
+    GridLayout:
+        cols : 5
+        orientation: 'horizontal'
+
+
+        Label:
+            text: ""
+            size_hint_x: None
+            size_hint_y: None
+            width: 150
+            height: 100
+            font_size: 70
+            text_size: self.size
+
+        Label:
+            text: "Location"
+            size_hint_x: None
+            size_hint_y: None
+            halign: 'center'
+            valign: 'center'
+
+        Label:
+            text: "Time"
+            size_hint_x: None
+            size_hint_y: None
+            halign: 'center'
+            valign: 'center'
+
+        Label:
+            text: "Days"
+            size_hint_x: None
+            size_hint_y: None
+            halign: 'center'
+            valign: 'center'
+
+        Label:
+            text: "Reminder"
+            size_hint_x: None
+            size_hint_y: None
+            halign: 'center'
+            valign: 'center'
+
+    # line 1
+
+        Label:
+            text: "         Class 1"
+            size_hint_y: None
+            size_hint_x: None
+            width: 50
+            height: 50
+            halign: 'center'
+            valign: 'center'
+
+        TextInput:
+            id: t1
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t2
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t3
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t4
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+    # line 2
+
+        Label:
+            text: "         Class 2"
+            size_hint_y: None
+            size_hint_x: None
+            width: 50
+            height: 50
+            halign: 'center'
+            valign: 'center'
+
+        TextInput:
+            id: t5
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t6
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t7
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t8
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+    # line 3
+
+        Label:
+            text: "         Class 3"
+            size_hint_y: None
+            size_hint_x: None
+            width: 50
+            height: 50
+            halign: 'center'
+            valign: 'center'
+
+        TextInput:
+            id: t9
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t10
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t11
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t12
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+    # line 4
+
+        Label:
+            text: "         Class 4"
+            size_hint_y: None
+            size_hint_x: None
+            width: 50
+            height: 50
+            halign: 'center'
+            valign: 'center'
+
+
+
+        TextInput:
+            id: t13
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t14
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t15
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t16
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+    # line 5
+
+        Label:
+            text: "         Class 5"
+            size_hint_y: None
+            size_hint_x: None
+            width: 50
+            height: 50
+            halign: 'center'
+            valign: 'center'
+
+        TextInput:
+            id: t17
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t18
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t19
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t20
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+    # line 6
+
+        Label:
+            text: "         Class 6"
+            size_hint_y: None
+            size_hint_x: None
+            width: 50
+            height: 50
+            halign: 'center'
+            valign: 'center'
+
+        TextInput:
+            id: t21
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t22
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t23
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+        TextInput:
+            id: t24
+            multiline: False
+            size_hint_y: None
+            width: 50
+            height: 50
+
+    Button:
+        text: "Submit"
+        size_hint_y: None
+        height: 150
+        font_size: 40
+
+        canvas.before:
+            Color:
+                rgba: 128, 128, 0, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        on_release: root.store_var([t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24])
+        #on_release: root.clear_inputs([t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24])
+        on_release: app.root.current = 'screen_two'
+
+
+
+
+
+<SubInterface>
+    GridLayout:
+        size_hint_y: None
+        height : 100
+        cols : 1
+        size: root.width, root.height
+        Label:
+            text: "Saturday, September 14"
+            font_size: 100
+            size_hint_x: None
+            width: 1500
+            size_hint_y: None
+            height: 200
+            color: 1,1,0,.9
+
+        GridLayout:
+            cols : 3
+            size: root.width, root.height
+
+            Label:
+                text: "Class 1 - MA 16200"
+
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 450
+                font_size: 40
+
+            Button:
+                text:" Walking Time - 0 minutes"
+
+                size_hint_y: None
+                height: 100
+                size_hint_x: None
+                width : 550
+                font_size: 40
+                on_release: root.open_map1()
+            Label:
+                text: "Class Time - 8:30 A.M."
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 500
+                font_size: 40
+            Label:
+                text: "Class 2 - ENGL 10800"
+
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 450
+                font_size: 40
+
+            Button:
+                text:" Walking Time - 7 minutes"
+
+                size_hint_y: None
+                height: 100
+                size_hint_x: None
+                width : 550
+                font_size: 40
+                on_release: root.open_map2()
+            Label:
+                text: "Class Time - 9:00 A.M."
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 500
+                font_size: 40
+            Label:
+                text: "Class 3 - STAT 35500"
+
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 450
+                font_size: 40
+
+            Button:
+                text:" Walking Time - 5 minutes"
+
+                size_hint_y: None
+                height: 100
+                size_hint_x: None
+                width : 550
+                font_size: 40
+                on_release: root.open_map3()
+
+            Label:
+                text: "Class Time - 11:00 A.M."
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 500
+                font_size: 40
+            Label:
+                text: "Class 4 - ENGR 13200"
+
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 450
+                font_size: 40
+
+            Button:
+                text:" Walking Time - 8 minutes"
+
+                size_hint_y: None
+                height: 100
+                size_hint_x: None
+                width : 550
+                font_size: 40
+                on_release: root.open_map4()
+
+            Label:
+                text: "Class Time - 1:30 P.M."
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 500
+                font_size: 40
+            Label:
+                text: "Class 5 - COM 11400"
+
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 450
+                font_size: 40
+
+            Button:
+                text:" Walking Time - 6 minutes"
+
+                size_hint_y: None
+                height: 100
+                size_hint_x: None
+                width : 550
+                font_size: 40
+                on_release: root.open_map5()
+
+            Label:
+                text: "Class Time - 2:30 P.M."
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 500
+                font_size: 40
+            Label:
+                text: "Class 6 - CS 18000"
+
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 450
+                font_size: 40
+
+            Button:
+                text:" Walking Time - 11 minutes"
+
+                size_hint_y: None
+                height: 100
+                size_hint_x: None
+                width : 550
+                font_size: 40
+                on_release: root.open_map6()
+
+
+
+            Label:
+                text: "Class Time - 4:30 P.M."
+                size_hint_y: None
+                height: 120
+                size_hint_x: None
+                width : 500
+                font_size: 40
+        Button:
+            text: "Back"
+            font_size: 40
+            size_hint_y: None
+            height: 150
+
+            canvas.before:
+                Color:
+                    rgba: 128, 128, 0, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+            on_release: app.root.current = 'screen_one'
